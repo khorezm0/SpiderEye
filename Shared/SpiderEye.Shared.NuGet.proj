@@ -2,11 +2,11 @@
   <PropertyGroup>
     <AutoIncrementPackageRevision>True</AutoIncrementPackageRevision>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
-    <Authors>Johannes Bildstein</Authors>
+    <Authors>Johannes Bildstein, Khorezm0</Authors>
     <Company />
     <Copyright>Copyright © Johannes Bildstein 2020-$([System.DateTime]::Now.Year)</Copyright>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/JBildstein/SpiderEye.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/khorezm0/SpiderEye.git</RepositoryUrl>
     <PackageProjectUrl>https://github.com/JBildstein/SpiderEye</PackageProjectUrl>
     <PackageIcon>logo.png</PackageIcon>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>

@@ -7,6 +7,7 @@ What's the name supposed to mean? Simple: what kind of view does a spiders eye h
 
 ## Patches
 
+This is patched repository. Original repository: [https://github.com/JBildstein/SpiderEye](https://github.com/JBildstein/SpiderEye)
  - Windows Webview2 Upgraded to 1.0.2792
 
 ## Supported OS
@@ -44,10 +45,10 @@ The fixed version distribution mode (also known as "bring your own") is currentl
 
 | Type | Package Manager | Name | Version |
 | ----- | ----- | ----- | ----- |
-| Host (Common) | NuGet | `Bildstein.SpiderEye.Core` | [![NuGet](https://img.shields.io/nuget/v/Bildstein.SpiderEye.Core.svg)](https://www.nuget.org/packages/Bildstein.SpiderEye.Core/) |
-| Host (Windows) | NuGet | `Bildstein.SpiderEye.Windows` | [![NuGet](https://img.shields.io/nuget/v/Bildstein.SpiderEye.Windows.svg)](https://www.nuget.org/packages/Bildstein.SpiderEye.Windows/) |
-| Host (Linux) | NuGet | `Bildstein.SpiderEye.Linux` | [![NuGet](https://img.shields.io/nuget/v/Bildstein.SpiderEye.Linux.svg)](https://www.nuget.org/packages/Bildstein.SpiderEye.Linux/) |
-| Host (macOS) | NuGet | `Bildstein.SpiderEye.Mac` | [![NuGet](https://img.shields.io/nuget/v/Bildstein.SpiderEye.Mac.svg)](https://www.nuget.org/packages/Bildstein.SpiderEye.Mac/) |
+| Host (Common) | NuGet | `Khorezm0.SpiderEye.Core` | [![NuGet](https://img.shields.io/nuget/v/Bildstein.SpiderEye.Core.svg)](https://www.nuget.org/packages/Khorezm0.SpiderEye.Core/) |
+| Host (Windows) | NuGet | `Khorezm0.SpiderEye.Windows` | [![NuGet](https://img.shields.io/nuget/v/Bildstein.SpiderEye.Windows.svg)](https://www.nuget.org/packages/Khorezm0.SpiderEye.Windows/) |
+| Host (Linux) | NuGet | `Khorezm0.SpiderEye.Linux` | [![NuGet](https://img.shields.io/nuget/v/Bildstein.SpiderEye.Linux.svg)](https://www.nuget.org/packages/Khorezm0.SpiderEye.Linux/) |
+| Host (macOS) | NuGet | `Khorezm0.SpiderEye.Mac` | [![NuGet](https://img.shields.io/nuget/v/Bildstein.SpiderEye.Mac.svg)](https://www.nuget.org/packages/Khorezm0.SpiderEye.Mac/) |
 | Project Templates | NuGet | `Bildstein.SpiderEye.Templates` | [![NuGet](https://img.shields.io/nuget/v/Bildstein.SpiderEye.Templates.svg)](https://www.nuget.org/packages/Bildstein.SpiderEye.Templates/) |
 | Client | npm | `spidereye` | [![npm](https://img.shields.io/npm/v/spidereye.svg)](https://www.npmjs.com/package/spidereye) |
 
