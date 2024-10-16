@@ -5,6 +5,10 @@ Contrary to Electron though, SpiderEye uses the OS native webview instead of bun
 
 What's the name supposed to mean? Simple: what kind of view does a spiders eye have? A webview! Get it? ...you'll laugh later :P
 
+## Patches
+
+ - Windows Webview2 Upgraded to 1.0.2792
+
 ## Supported OS
 
 | OS | Version | Runtime (minimum) | Webview | Browser Engine |
