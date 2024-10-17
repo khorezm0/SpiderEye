@@ -52,6 +52,10 @@ namespace SpiderEye.Windows
             customHost = new Uri(UriTools.GetRandomResourceUrl(scheme));
 
             webview = new WebView2();
+            webview.CreationProperties = new CoreWebView2CreationProperties
+            {
+                AdditionalBrowserArguments = "--unsafely-treat-insecure-origin-as-secure=" + customHost.OriginalString,
+            };
             webview.NavigationStarting += Webview_NavigationStarting;
             webview.NavigationCompleted += Webview_NavigationCompleted;
             webview.WebMessageReceived += Webview_WebMessageReceived;
@@ -88,7 +92,7 @@ namespace SpiderEye.Windows
 
         private async Task InitWebview()
         {
-            environment = await CoreWebView2Environment.CreateAsync();
+            environment = await CoreWebView2Environment.CreateAsync(options: new CoreWebView2EnvironmentOptions("--unsafely-treat-insecure-origin-as-secure=" + customHost.OriginalString));
             await webview.EnsureCoreWebView2Async(environment);
 
             webview.CoreWebView2.AddWebResourceRequestedFilter(customHost.OriginalString + "/*", CoreWebView2WebResourceContext.All);
