@@ -8,7 +8,8 @@ What's the name supposed to mean? Simple: what kind of view does a spiders eye h
 ## Patches
 
 This is patched repository. Original repository: [https://github.com/JBildstein/SpiderEye](https://github.com/JBildstein/SpiderEye)
- - Windows Webview2 Upgraded to 1.0.2792
+ - Windows Webview2 Upgraded to 1.0.2792 (e8dd0fe5)
+ - Windows Webview2 treat HTTP as HTTPS (so microphone and camera works) (a0a8562c)
 
 ## Supported OS
 
